@@ -22,7 +22,7 @@ class SecondFragment : Fragment() {
 
         val data = arguments
 
-        txtFr2.text = "Hello " + data?.getString("text") + "!!"
+        txtFr2.text = "Hola " + data?.getString("text") + "!"
 
 
         return view
